@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tags de Formulário</title>
+</head>
+
+<body>
+  Hello World
+  <!-- TAG FORM, representa um formulário a ser enviado para o servidor -->
+  <form method="GET" target="_self" action="https://www.google.com/search">
+    <label for="inputPesquisa">Pesquisa</label>
+
+
+    <!-- Todo campo de formulário é enviado identificado pelo name e com o conteudo do value  
+          Então seria que ele lê apenas o conteudo do espaço
+         "Value" = conteudo do espaço -->
+
+
+    <!-- o "q" é porque o google espera uma variavel "q" não poderia ser outra apenas "q"-->
+    <input id="inputPesquisa" name="q" type="text" />
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+
+</html>

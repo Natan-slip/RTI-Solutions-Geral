@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imputs HTML</title>
+        <style>
+            body {
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            form {
+                display: flex;
+                flex-direction: sans-serif;
+                gap: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="" action="">
+
+            <label for="nome" >Nome</label>
+            <imput type="text" id="nome" name="nome" placeholder="Nome" required/>
+        
+            <label for="idade" >Idade</label>
+            <imput type="number" id="idade" name="idade" placeholder="Idade"/>
+
+            <label for="email" >E-mail</label>
+            <imput type="email" id="idade" name="idade" placeholder="E-mail"/> 
+            <!-- imput "passaword" oculta a senha-->
+
+            <p style="margin-bottom: 0;">Hobby</p>
+
+            <div>
+                <imput type="radio" id="sexoM" value="M" name="sexo" />
+                <label for="sexoM">Masculino</label>
+            </div>
+
+            <div>
+                <imput type="radio" id="sexoF" value="F" name="sexo" />
+                <label for="sexoF">Feminino</label>
+            </div>
+
+            <div>
+                <imput type="radio" id="sexoO" value="O" name="sexo" />
+                <label for="sexoO">Outros</label>
+            </div>
+
+ 
+            <p style="margin-bottom: 0;">Hobby</p>                                                                                              
+
+            <div>
+                <imput type="checkbox" value="sim" id="cantar" name="cantar" />
+                <label for="hobby">Cantar</label>
+            </div>
+
+            <div>
+                <imput type="checkbox" value="sim" id="dancar" name="dancar" />
+                <label for="hobby">Dançar</label>
+            </div>
+
+            <div>
+                <imput type="checkbox" value="sim" id="programar" name="programar" />
+                <label for="hobby">Programar</label>
+            </div>   
+
+            <imput type="hidden" name="oculto" />
+
+            <button>Enviar</button>
+
+        </form>
+    </body>
+</html>
